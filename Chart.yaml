@@ -19,7 +19,7 @@ maintainers:
     email: helm@gavinmogan.com
 annotations:
   artifacthub.io/changes: |
-    - Bump upstream version to 1.11.24
+    - Bump upstream version
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
     - name: element-web
