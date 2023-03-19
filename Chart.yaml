@@ -1,9 +1,9 @@
 apiVersion: v2
-appVersion: "v1.11.25" # image "vectorim/element-web"
+appVersion: v1.11.25
 description: Communicate the way you want with Riot - a universal secure chat app entirely under your control.
 icon: https://raw.githubusercontent.com/vector-im/element-web/develop/res/themes/element/img/logos/element-logo.svg
 name: element-web
-version: 1.0.50
+version: 1.0.53
 type: application
 keywords:
   - synapse
@@ -18,9 +18,11 @@ maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
 annotations:
-  artifacthub.io/changes: |
-    - Bump upstream version
-  artifacthub.io/containsSecurityUpdates: "true"
+  artifacthub.io/changes:
+    - '## [1.0.53](https://github.com/halkeye-helm-charts/element-web/compare/v1.0.52...v1.0.53) (2023-03-19)'
+    - '### Bug Fixes'
+    - '* force release ([432d3f6](https://github.com/halkeye-helm-charts/element-web/commit/432d3f6fe2e019d5ff8cd32fa318b9ccd78f7bd1))'
+  artifacthub.io/containsSecurityUpdates: 'true'
   artifacthub.io/images: |
     - name: element-web
       image: "vectorim/element-web:v1.11.25"
