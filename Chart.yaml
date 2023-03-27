@@ -3,7 +3,7 @@ appVersion: v1.11.25
 description: Communicate the way you want with Riot - a universal secure chat app entirely under your control.
 icon: https://raw.githubusercontent.com/vector-im/element-web/develop/res/themes/element/img/logos/element-logo.svg
 name: element-web
-version: 1.0.54
+version: 1.0.55
 type: application
 keywords:
   - synapse
@@ -18,18 +18,8 @@ maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
 annotations:
-  artifacthub.io/changes: |+
-    ## [1.0.54](https://github.com/halkeye-helm-charts/element-web/compare/v1.0.53...v1.0.54) (2023-03-19)
-
-
-    ### Bug Fixes
-
-    * chart yaml ([62d057f](https://github.com/halkeye-helm-charts/element-web/commit/62d057f1983122c2d70481c83f02dd318959ed3e))
-    * force release ([1b4fbf8](https://github.com/halkeye-helm-charts/element-web/commit/1b4fbf89dfc4ed15ad1fcf9cfc0254b736452a9d))
-    * force release (still 1.11.25) ([87a24c0](https://github.com/halkeye-helm-charts/element-web/commit/87a24c04f25f8cc5344532e167fa94d50153c338))
-
-
-
+  artifacthub.io/changes: |
+    - fix: don't include node_modules in helm packages: ([61aa74d93b7354a119f44ab21db220839bb39e30](https://github.com/halkeye-helm-charts/element-web/commit/61aa74d93b7354a119f44ab21db220839bb39e30))
   artifacthub.io/containsSecurityUpdates: 'false'
   artifacthub.io/images: |
     - name: element-web
