@@ -20,7 +20,7 @@ maintainers:
 annotations:
   artifacthub.io/changes: |
     - fix: don't include node_modules in helm packages: ([61aa74d93b7354a119f44ab21db220839bb39e30](https://github.com/halkeye-helm-charts/element-web/commit/61aa74d93b7354a119f44ab21db220839bb39e30))
-  artifacthub.io/containsSecurityUpdates: 'false'
+  artifacthub.io/containsSecurityUpdates: 'true'
   artifacthub.io/images: |
     - name: element-web
-      image: "vectorim/element-web:v1.11.25"
+      image: "vectorim/element-web:v1.11.26"
