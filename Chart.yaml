@@ -20,7 +20,7 @@ maintainers:
 annotations:
   artifacthub.io/changes: |2
      - "**deps:** update vectorim/element-web docker tag to v1.11.26 ([0e02763](https://github.com/halkeye-helm-charts/element-web/commit/0e02763ef7de978eeb0a0834d53fa674abd4d70b))"
-  artifacthub.io/containsSecurityUpdates: 'true'
+  artifacthub.io/containsSecurityUpdates: 'false'
   artifacthub.io/images: |
     - name: element-web
-      image: "vectorim/element-web:v1.11.26"
+      image: "vectorim/element-web:v1.11.28"
